@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+    <servlet>
+		<servlet-name>dengLuAction</servlet-name>
+		<servlet-class>yonghu.DengLuAction</servlet-class>
+	</servlet>
+	
+	<servlet>
+	    <servlet-name>zhuCeYHandDXAction</servlet-name>
+		<servlet-class>yonghu.ZhuCeYHandDXAction</servlet-class>
+	</servlet>
+	
+	<servlet>
+	    <servlet-name>shanChuYHandDHAction</servlet-name>
+		<servlet-class>yonghu.ShanChuYHandDHAction</servlet-class>
+	</servlet>
+	
+	<servlet>
+	    <servlet-name>chaXunYongHuAction</servlet-name>
+		<servlet-class>yonghu.ChaXunYongHuAction</servlet-class>
+	</servlet>
+	
+	
+	<servlet>
+	    <servlet-name>chaXunDuiXiangAction</servlet-name>
+		<servlet-class>toupiao.ChaXunDuiXiangAction</servlet-class>
+	</servlet>
+	<servlet>
+	    <servlet-name>touPiaoAction</servlet-name>
+		<servlet-class>toupiao.TouPiaoAction</servlet-class>
+	</servlet>
+
+	<servlet>
+	    <servlet-name>touPiaoTongJiAction</servlet-name>
+		<servlet-class>toupiao.TouPiaoTongJiAction</servlet-class>
+	</servlet>
+	
+	
+	
+	
+	
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>dengLuAction</servlet-name>
+		<url-pattern>/dengLuAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>zhuCeYHandDXAction</servlet-name>
+		<url-pattern>/zhuCeYHandDXAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>shanChuYHandDHAction</servlet-name>
+		<url-pattern>/shanChuYHandDHAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>chaXunYongHuAction</servlet-name>
+		<url-pattern>/chaXunYongHuAction</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>chaXunDuiXiangAction</servlet-name>
+		<url-pattern>/chaXunDuiXiangAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>touPiaoAction</servlet-name>
+		<url-pattern>/touPiaoAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>touPiaoTongJiAction</servlet-name>
+		<url-pattern>/touPiaoTongJiAction</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+</web-app>
